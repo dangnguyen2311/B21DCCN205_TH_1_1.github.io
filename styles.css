@@ -1,0 +1,128 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info-form,
+#examQuestions {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+} */
+
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* Căn giữa nội dung của button */
+    display: block; /* Đặt button thành phần block để có thể sử dụng margin */
+    margin: 0 auto; /* Tự động căn giữa theo chiều ngang */
+}
+
+h2 {
+    text-align: center; /* Căn giữa nội dung */
+    font-weight: bold; /* In đậm */
+    margin: 0; 
+    font-size: 40px;
+}
+.information {
+    border-color: burlywood;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: burlywood;
+}
+
+.information h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Trong styles.css hoặc file CSS của bạn */
+#quizForm {
+    max-width: 900px; /* Đặt kích thước tối đa của form */
+    margin: 0 auto;   /* Canh giữa form */
+    padding: 20px;    /* Thêm phần đệm để làm cho form trông thoải mái hơn */
+}
+
+/* Hoặc nếu bạn muốn thay đổi kích thước của các phần tử bên trong form, bạn có thể làm như sau: */
+#quizForm h2 {
+    font-size: 24px;  /* Đặt kích thước của tiêu đề câu hỏi */
+}
+
+#quizForm .question-group {
+    margin-bottom: 20px;  /* Thêm khoảng cách giữa các nhóm câu hỏi */
+}
+
+#quizForm .question {
+    margin-bottom: 10px;  /* Thêm khoảng cách giữa các câu hỏi */
+}
+
+#quizForm button {
+    font-size: 18px;  /* Đặt kích thước của nút Nộp bài */
+}
+#quizForm label {
+    display: inline-block; /* Đảm bảo các label hiển thị trên cùng một dòng */
+    vertical-align: middle; /* Canh giữa theo chiều dọc */
+    margin-right: 4cm;
+}
+
+#quizForm input[type="radio"] {
+    vertical-align: middle; /* Canh giữa theo chiều dọc */
+    
+}
+#quizForm .radio-label {
+    display: block;
+    margin-right: 5cm;
+}
+
+#quizForm #kqua p{
+    background-color: coral;
+}
